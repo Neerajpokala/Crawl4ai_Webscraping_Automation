@@ -41,10 +41,7 @@ Before running the script, ensure you have the following installed:
    ```bash
    pip install pandas
    ```
-6. **Streamlit** (for the app):
-   ```bash
-   pip install streamlit
-   ```
+
 
 ---
 
