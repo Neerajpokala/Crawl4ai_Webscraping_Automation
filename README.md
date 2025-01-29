@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Playwright](https://img.shields.io/badge/Playwright-1.30%2B-green)
 ![Google Generative AI](https://img.shields.io/badge/Google%20Generative%20AI-0.1%2B-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.20%2B-red)
+
 
 This repository contains a Python-based solution for automating web scraping, data extraction, and reporting using **Playwright**, **Google Generative AI (Gemini Pro)**, and **crawl4ai**. The script extracts structured data from websites, validates it using AI, and generates reports in JSON and CSV formats. It also includes a **Streamlit app** for user-friendly interaction.
 
@@ -57,7 +57,7 @@ Before running the script, ensure you have the following installed:
    ```
 
 ### 2. **Set Up Google API Key**
-   - Go to the [Google Cloud Console](https://console.cloud.google.com/).
+   - Go to the [Google AI studio](https://aistudio.google.com/prompts/new_chat).
    - Create a new project and enable the **Generative AI API**.
    - Generate an API Key from the **Credentials** page.
    - Set the API Key in your environment:
@@ -98,27 +98,11 @@ Before running the script, ensure you have the following installed:
    - A combined JSON file (`combined_results.json`).
    - A CSV file (`combined_results.csv`).
 
-### **Option 2: Use the Streamlit App**
-1. **Run the Streamlit App**:
-   ```bash
-   streamlit run app.py
-   ```
-2. **Upload a CSV File**:
-   - Open the app in your browser.
-   - Upload a CSV file containing URLs.
-3. **Start Processing**:
-   - Click the "Start Processing" button to extract data from the URLs.
-4. **Download Results**:
-   - View the extracted data in the app.
-   - Download the results as a CSV file.
-
----
 
 ## **Code Structure**
 
-- **`script.py`**: The main script for web scraping and data extraction.
-- **`app.py`**: The Streamlit app for user-friendly interaction.
-- **`results/`**: Directory where the output files (JSON and CSV) are saved.
+- **`function.py`**: The main script for web scraping and data extraction.
+- **`Crawl4ai_Installation.ipynb`**: Installation file for Crawl4ai.
 - **`urls.csv`**: Example CSV file containing URLs to be processed.
 
 ---
@@ -169,16 +153,15 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Playwright](https://playwright.dev/) for browser automation.
 - [Google Generative AI](https://ai.google.dev/) for data extraction.
 - [crawl4ai](https://github.com/crawl4ai/crawl4ai) for web crawling and content filtering.
-- [Streamlit](https://streamlit.io/) for building the interactive app.
 
 ---
 
 ## **Contact**
 
 For questions or feedback, please contact:  
-**Your Name**  
-**Email**: your.email@example.com  
-**GitHub**: [your-username](https://github.com/your-username)
+**Your Name** : Neeraj Pokala
+**Email**: Neerajpokala143@gmail.com 
+**GitHub**: [your-username](https://github.com/Neerajpokala)
 
 ---
 
