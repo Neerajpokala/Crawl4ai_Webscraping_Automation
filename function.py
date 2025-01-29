@@ -13,7 +13,7 @@ from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
 import google.generativeai as genai
 
 # Configure Google Generative AI
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyAc7Ii4wHf_whau2q--rgjfdht8-I5xhSY'
+os.environ['GOOGLE_API_KEY'] = 'Get Your API Key Here'
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
