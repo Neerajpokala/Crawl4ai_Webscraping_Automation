@@ -158,7 +158,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or feedback, please contact:  
 **Name** : Neeraj Pokala
 **Email**: Neerajpokala143@gmail.com 
-**GitHub**: [your-username](https://github.com/Neerajpokala/)
+**GitHub**: [Neerajpokala](https://github.com/Neerajpokala/)
 
 ---
 
